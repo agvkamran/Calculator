@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+body {
+  background-image: url(https://www.trosifol.com/fileadmin/user_upload/technical_information/strength_of_glass_calculator/background_calculator.jpg);
+}
+
+.x {
+  font-size: 70px;
+  float: right;
+  margin-right: 10px;
+}
+.x-hide {
+  display: none;
+}
+#input {
+  margin-bottom: 5px;
+  width: 200x;
+  height: 50px;
+  font-size: 35px;
+  font-family: "Gilroy";
+  text-align: right;
+}
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  border-radius: 15px;
+  top: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #092532;
+  margin: 150px 500px;
+  width: 236px;
+  padding: 10px;
+}
+.main {
+  display: none;
+}
+.button {
+  width: 55px;
+  height: 55px;
+  font-size: 18px;
+
+  /* margin: -4px; */
+}
+.zero {
+  width: 115px;
+}
+
+.start {
+  background-color: rgb(189, 195, 199, 0.5);
+  width: 100%;
+  height: 670px;
+  position: relative;
+}
+.click {
+  position: absolute;
+  left: 520px;
+  top: 325px;
+}
+.btn {
+  border: 1px solid black;
+  padding: 25px;
+  font-family: monospace;
+  font-size: 20px;
+}
+.click-hide {
+  display: none;
+}
+
+/*
+.buttons {
+  padding: 0 10px 10px;
+}
+
+input {
+  width: 255px;
+  height: 60px;
+  border: none;
+  font-size: 30px;
+  margin: 15px;
+  background-color: pink;
+}
+.main {
+  margin: 100px auto;
+  background-color: pink;
+  border-radius: 15px;
+  width: 300px;
+}
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 5%;
+  margin: 5px;
+  margin-left: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.zero {
+  width: 120px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.transparency {
+  background-color: rgba(100, 100, 100, 0.7);
+}
+.transparency:hover {
+  background-color: red;
+} */
